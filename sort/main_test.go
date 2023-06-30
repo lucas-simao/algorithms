@@ -31,7 +31,7 @@ func TestSortList(t *testing.T) {
 			}(),
 		},
 		"sort list with 50k": {
-			ListToOrder: generateList(5e4),
+			ListToOrder: generateList(5e5),
 			ExpectedList: func() []int {
 				list := generateList(5e5)
 				sort.Ints(list)
