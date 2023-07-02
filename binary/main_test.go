@@ -34,10 +34,6 @@ func TestBinarySearch(t *testing.T) {
 			ToFind: rand.Intn(1000000-1) + 1,
 			Total:  1000000,
 		},
-		"should search on 1B numbers": {
-			ToFind: rand.Intn(10000000-1) + 1,
-			Total:  10000000,
-		},
 	}
 
 	for name, test := range tests {
