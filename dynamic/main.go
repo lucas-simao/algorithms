@@ -7,6 +7,7 @@ import "fmt"
 // Radio $3000 = 4kg
 // Notebook $2000 = 3kg
 // Guitar $1500 = 1kg
+// you'll need to steal max of items without passing off bag weight and with max cost
 
 type Item struct {
 	Name   string
